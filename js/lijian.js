@@ -19,7 +19,7 @@ if (!document.createElement('canvas').getContext) {
 } else {
 	setTimeout(function () {
 		startHeartAnimation();
-	}, 5000);
+	}, 500);
 
 	timeElapse(together);
 	setInterval(function () {
